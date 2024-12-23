@@ -18,6 +18,7 @@ object HelloTests extends TestSuite{
     test("test4"){
       val a = null
       a
+      assert(1 == 2)
     }
   }
 }

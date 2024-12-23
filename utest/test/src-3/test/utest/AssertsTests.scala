@@ -36,6 +36,9 @@ object AssertsTestsVersionSpecific extends utest.TestSuite{
           )
       }
     }
+    test("simple") {
+      assert(1 == 2)
+    }
   }
 }
 
